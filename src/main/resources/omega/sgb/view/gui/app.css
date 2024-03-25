@@ -21,6 +21,22 @@
 .button:pressed {
     -fx-cursor: default;
 }
+
+#TipoCuentaBox {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-background-insets: 0; /* Elimina los márgenes de fondo */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.5, 0, 0); /* Sombra */
+    -fx-text-fill: black; /* Color del texto */
+    -fx-font-size: 14px; /* Tamaño de fuente */
+    -fx-font-family: "Roboto Light";
+}
+#TipoCuentaBox:hover {
+    -fx-cursor: hand;
+}
+#TipoCuentaBox:pressed {
+    -fx-cursor: default;
+}
+
 .label{
     -fx-font-family: "Roboto Light";
 }

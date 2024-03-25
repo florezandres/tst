@@ -76,9 +76,9 @@
                   <Font name="System Bold" size="35.0" />
                </font>
             </Label>
-            <ImageView fitHeight="251.0" fitWidth="250.0" layoutX="544.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="206.0" fitWidth="267.0" layoutX="566.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../demo3/src/main/resources/tst/demo3/gui/UserAdd.png" />
+                  <Image url="@gui/add_user.png" />
                </image>
             </ImageView>
             <Button fx:id="VolverButton" layoutX="52.0" layoutY="577.0" mnemonicParsing="false" onAction="#ToLoginView" prefHeight="42.0" prefWidth="123.0" text="Volver a inicio">
@@ -94,7 +94,7 @@
                   <Font name="System Bold" size="17.0" />
                </font>
             </Label>
-            <ComboBox fx:id="TipoCuentaBox" layoutX="278.0" layoutY="433.0" prefHeight="42.0" prefWidth="198.0" promptText="Tipo Cuenta" />
+            <ComboBox fx:id="TipoCuentaBox" layoutX="278.0" layoutY="432.0" prefHeight="42.0" prefWidth="198.0" promptText="Tipo de Cuenta" />
          </children>
       </Pane>
    </children>
