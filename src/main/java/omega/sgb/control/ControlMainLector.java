@@ -16,7 +16,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class ControlMainLector implements Initializable {
-    public String css = this.getClass().getResource("/omega/sgb/view/gui/app.css").toExternalForm();
+    public String css = this.getClass().getResource("/gui/app.css").toExternalForm();
     private Stage stage;
     private Scene scene;
     private Parent root;

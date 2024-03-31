@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 public class ControlCrearCuenta implements Initializable {
 
     private ControlLogin LC = new ControlLogin();
-    public String css = this.getClass().getResource("/omega/sgb/view/gui/app.css").toExternalForm();
+    public String css = this.getClass().getResource("/gui/app.css").toExternalForm();
 
     private Stage stage;
     private Scene scene;
@@ -47,7 +47,7 @@ public class ControlCrearCuenta implements Initializable {
     }
 
     public void ToLoginView(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/omega.sgb.view/login-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/omega/sgb/view/login-view.fxml"));
         root = loader.load();
         stage = ((Stage) ((Node) event.getSource()).getScene().getWindow());
         scene = new Scene(root);
