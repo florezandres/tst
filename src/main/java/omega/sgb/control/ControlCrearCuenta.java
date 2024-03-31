@@ -47,7 +47,7 @@ public class ControlCrearCuenta implements Initializable {
     }
 
     public void ToLoginView(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/omega/sgb/view/login-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/omega.sgb.view/login-view.fxml"));
         root = loader.load();
         stage = ((Stage) ((Node) event.getSource()).getScene().getWindow());
         scene = new Scene(root);

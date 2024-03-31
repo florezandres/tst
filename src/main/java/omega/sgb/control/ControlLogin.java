@@ -11,12 +11,15 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import omega.sgb.App;
+import omega.sgb.dominio.Cuenta;
 
 import java.io.IOException;
 
 public class ControlLogin {
+
     public String css = this.getClass().getResource("/omega/sgb/view/gui/app.css").toExternalForm();
     //public Cuenta cuenta = new Cuenta();
+    public Cuenta cuenta = new Cuenta();
     private Stage stage;
     private Scene scene;
     private Parent root;
@@ -43,7 +46,7 @@ public class ControlLogin {
 
     public void toPantallaCrearCuenta(ActionEvent event) throws IOException {
         App app = new App();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/omega/sgb/view/crearcuenta-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/omega.sgb.view/crearcuenta-view.fxml"));
         //FXMLLoader loader = new FXMLLoader(getClass().getResource("/omega/sgb/view/nada.fxml"));
         root = loader.load();
         stage = ((Stage) ((Node) event.getSource()).getScene().getWindow());

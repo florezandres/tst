@@ -53,3 +53,6 @@
     -fx-background-radius: 5px; /* Bordes redondeados */
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 20, 0.5, 0, 0); /* Sombra */
 }
+#LabelCC{
+    -fx-font-weight:bold;
+}

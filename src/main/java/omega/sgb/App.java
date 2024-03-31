@@ -17,7 +17,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         //Carga y establece la vista principal del programa
-        Parent root = FXMLLoader.load(getClass().getResource("/omega/sgb/view/login-view.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/omega.sgb.view/login-view.fxml"));
 
         Scene scene = new Scene(root);
 
